@@ -288,20 +288,33 @@ footer {
   .project-name-container {
     top: 200px;
   }
+  .main-content-container {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 640px) {
   /* The body's bg color will be #333 */
+
+  body {
+    padding-top: 0px;
+  }
+
   header {
-    height: 140px;
+    height: 130px;
+    position: static;
   }
 
   #portfolio {
-    margin-top: 170px;
+    margin-top: 20px;
   }
 
   #contact {
-    margin-top: 170px;
+    margin-top: 20px;
+  }
+
+  #about {
+    margin-top: 20px;
   }
 
   .header-center-container {
@@ -333,6 +346,14 @@ footer {
     align-items: center;
     height: 45px;
     width: 100%;
+  }
+
+  .profile-pic {
+    margin-bottom: 10px;
+  }
+
+  .about-content {
+    margin-top: 0px;
   }
 
   .project-card-container {
