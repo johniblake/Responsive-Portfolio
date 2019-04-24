@@ -199,6 +199,10 @@ input:focus,
   height: 200px;
   margin-bottom: 30px;
 }
+.project-card-container img {
+  height: 200px;
+  width: 200px;
+}
 .project-name-container {
   display: flex;
   flex-direction: column;
